@@ -19,7 +19,7 @@ public class ExcentHandler {
     }
 
     @ExceptionHandler ({UnprocesableExceptions.class})
-    public Error unprocExcep  (){
+    public Error unprocExcep(){
         return error.UnprocesableExceptions();
     }
 }
