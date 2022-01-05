@@ -14,7 +14,7 @@ public class DELETEStudentUsecase implements DELETEStudentPort {
 
 
     public void deleteStudent(String id) throws Exception {
-        if(studentJPA.findById(id).isEmpty()){throw new NotFoundException("No existe estudiante con id:" + id);}
+        if(studentJPA.findById(id).isEmpty()){throw new NotFoundException("No existe estudiante");}
         studentJPA.delete(studentJPA.findById(id).get());
     }
 }
