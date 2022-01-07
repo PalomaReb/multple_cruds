@@ -1,6 +1,7 @@
 package com.example.Miltiple_cruds.Student.application.infrastructure.dto;
 
 import com.example.Miltiple_cruds.Student.application.domain.Student;
+import com.example.Miltiple_cruds.Student.application.infrastructure.dto.output.StudentOUTPUT;
 import lombok.Getter;
 import lombok.Setter;
 

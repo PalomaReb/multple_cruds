@@ -24,6 +24,9 @@ public class PersonOUTPUT {
     private String image_url;
     private Date term_date;
 
+    public PersonOUTPUT(Person person) {
+    }
+
 
     public PersonOUTPUT changeDTO(Person person){
         PersonOUTPUT personOUTPUT = new PersonOUTPUT();
@@ -42,8 +45,4 @@ public class PersonOUTPUT {
 
         return personOUTPUT;
     }
-
-
-
-
 }

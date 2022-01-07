@@ -1,7 +1,7 @@
 package com.example.Miltiple_cruds.Student.application.infrastructure.controllers;
 
 import com.example.Miltiple_cruds.Student.application.infrastructure.dto.StudentINPUT;
-import com.example.Miltiple_cruds.Student.application.infrastructure.dto.StudentOUTPUT;
+import com.example.Miltiple_cruds.Student.application.infrastructure.dto.output.StudentOUTPUT;
 import com.example.Miltiple_cruds.Student.application.ports.POSTStudentPort;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

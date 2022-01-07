@@ -3,13 +3,10 @@ package com.example.Miltiple_cruds.Student.application.ports.usecase;
 import com.example.Miltiple_cruds.Person.application.domain.exceptions.NotFoundException;
 import com.example.Miltiple_cruds.Student.application.domain.Student;
 import com.example.Miltiple_cruds.Student.application.domain.StudentJPA;
-import com.example.Miltiple_cruds.Student.application.infrastructure.dto.StudentOUTPUT;
+import com.example.Miltiple_cruds.Student.application.infrastructure.dto.output.StudentOUTPUT;
 import com.example.Miltiple_cruds.Student.application.ports.GETStudentPort;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.ArrayList;
 import java.util.List;

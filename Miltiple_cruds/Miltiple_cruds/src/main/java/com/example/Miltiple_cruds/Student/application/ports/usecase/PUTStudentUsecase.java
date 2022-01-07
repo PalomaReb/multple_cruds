@@ -1,12 +1,6 @@
 package com.example.Miltiple_cruds.Student.application.ports.usecase;
 
-import com.example.Miltiple_cruds.Person.application.domain.exceptions.NotFoundException;
-import com.example.Miltiple_cruds.Student.application.domain.Student;
-import com.example.Miltiple_cruds.Student.application.domain.StudentJPA;
-import com.example.Miltiple_cruds.Student.application.infrastructure.dto.StudentINPUT;
-import com.example.Miltiple_cruds.Student.application.infrastructure.dto.StudentOUTPUT;
 import com.example.Miltiple_cruds.Student.application.ports.PUTStudentPort;
-import org.springframework.beans.factory.annotation.Autowired;
 
 public class PUTStudentUsecase implements PUTStudentPort {
 

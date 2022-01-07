@@ -1,4 +1,4 @@
-package com.example.Miltiple_cruds.Student.application.infrastructure.dto;
+package com.example.Miltiple_cruds.Student.application.infrastructure.dto.output;
 
 
 import com.example.Miltiple_cruds.Student.application.domain.Student;

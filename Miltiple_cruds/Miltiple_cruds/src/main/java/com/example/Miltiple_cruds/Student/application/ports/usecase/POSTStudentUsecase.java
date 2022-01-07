@@ -3,7 +3,7 @@ package com.example.Miltiple_cruds.Student.application.ports.usecase;
 import com.example.Miltiple_cruds.Student.application.domain.Student;
 import com.example.Miltiple_cruds.Student.application.domain.StudentJPA;
 import com.example.Miltiple_cruds.Student.application.infrastructure.dto.StudentINPUT;
-import com.example.Miltiple_cruds.Student.application.infrastructure.dto.StudentOUTPUT;
+import com.example.Miltiple_cruds.Student.application.infrastructure.dto.output.StudentOUTPUT;
 import com.example.Miltiple_cruds.Student.application.ports.POSTStudentPort;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

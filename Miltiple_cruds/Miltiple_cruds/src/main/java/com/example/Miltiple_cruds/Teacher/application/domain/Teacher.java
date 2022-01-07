@@ -1,12 +1,13 @@
 package com.example.Miltiple_cruds.Teacher.application.domain;
 
 
+import com.example.Miltiple_cruds.Person.application.domain.Person;
+import com.example.Miltiple_cruds.Student.application.domain.Student;
 import com.sun.istack.NotNull;
 import lombok.Data;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Data
@@ -19,5 +20,12 @@ public class Teacher {
     private String branch;
     @NotNull
     private String comments;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "id_person")
+    private Person person;
+
+    @OneToMany(cascade = CascadeType.ALL)
+    List <Student> students;
 
 }
