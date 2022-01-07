@@ -1,7 +1,7 @@
 package com.example.Miltiple_cruds.Person.application.infrastructure.controllers;
 
-import com.example.Miltiple_cruds.Person.application.infrastructure.dto.PersonINPUT;
-import com.example.Miltiple_cruds.Person.application.infrastructure.dto.PersonOUTPUT;
+import com.example.Miltiple_cruds.Person.application.infrastructure.dto.input.PersonINPUT;
+import com.example.Miltiple_cruds.Person.application.infrastructure.dto.output.PersonOUTPUT;
 import com.example.Miltiple_cruds.Person.application.ports.ports.POSTport;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,4 +1,4 @@
-package com.example.Miltiple_cruds.Person.application.infrastructure.dto;
+package com.example.Miltiple_cruds.Person.application.infrastructure.dto.input;
 
 import com.example.Miltiple_cruds.Person.application.domain.Person;
 import lombok.Data;

@@ -2,7 +2,7 @@ package com.example.Miltiple_cruds.Person.application.ports.usecase;
 
 import com.example.Miltiple_cruds.Person.application.domain.Person;
 import com.example.Miltiple_cruds.Person.application.domain.PersonJPA;
-import com.example.Miltiple_cruds.Person.application.infrastructure.dto.PersonOUTPUT;
+import com.example.Miltiple_cruds.Person.application.infrastructure.dto.output.PersonOUTPUT;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;

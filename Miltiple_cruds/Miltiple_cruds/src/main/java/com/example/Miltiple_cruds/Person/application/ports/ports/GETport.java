@@ -1,7 +1,7 @@
 package com.example.Miltiple_cruds.Person.application.ports.ports;
 
 
-import com.example.Miltiple_cruds.Person.application.infrastructure.dto.PersonOUTPUT;
+import com.example.Miltiple_cruds.Person.application.infrastructure.dto.output.PersonOUTPUT;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

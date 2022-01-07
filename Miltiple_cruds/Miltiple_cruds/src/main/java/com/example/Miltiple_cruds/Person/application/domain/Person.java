@@ -1,13 +1,12 @@
 package com.example.Miltiple_cruds.Person.application.domain;
 
+import com.example.Miltiple_cruds.Student.application.domain.Student;
+import com.example.Miltiple_cruds.Teacher.application.domain.Teacher;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.Date;
 
 
@@ -33,5 +32,12 @@ public class Person {
     private String image_url;
     private Date term_Date;
 
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "person_student")
+    Student student;
+
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "person_teacher")
+    Teacher teacher;
 
 }

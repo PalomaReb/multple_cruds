@@ -1,7 +1,7 @@
 package com.example.Miltiple_cruds.Teacher.application.infrastucture.dto;
 
 
-import com.example.Miltiple_cruds.Person.application.infrastructure.dto.PersonINPUT;
+import com.example.Miltiple_cruds.Person.application.infrastructure.dto.input.PersonINPUT;
 import com.example.Miltiple_cruds.Teacher.application.domain.Teacher;
 import lombok.Getter;
 import lombok.Setter;
