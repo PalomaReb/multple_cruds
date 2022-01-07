@@ -16,9 +16,8 @@ public class TeacherINPUT {
     private String comments;
 
     public Teacher toOutput(){
-
         Teacher teacher = new Teacher();
-        //teacher.set
+
         teacher.setComments(comments);
         teacher.setBranch(branch);
         return teacher;
